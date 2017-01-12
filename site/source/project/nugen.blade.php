@@ -9,13 +9,14 @@
   @endsection
 
   @section('project_intro')
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nihil quaerat cumque similique praesentium explicabo excepturi, molestiae, aspernatur ipsa eligendi, placeat. Quibusdam dolores corporis reiciendis. At, esse, sit. Quasi, ea.
+    NuGen is an israeli startup commited to make this world a little bit better.
   @endsection
 
 
   @section('project_body')
-    <img class="project-detail__img" src="https://source.unsplash.com/category/technology" alt="">
-    <img class="project-detail__img" src="https://source.unsplash.com/random" alt="">
+    <img class="project-detail__img" src="/uploads/nugen/mountains.jpg" alt="Brand on background">
+    <img class="project-detail__img" src="/uploads/nugen/brand.jpg" alt="Brand variations">
+    <img src="/uploads/nugen/triangles.jpg" srcset="/uploads/nugen/triangles.jpg 1x, /uploads/nugen/triangles@2x.jpg 2x" alt="Brand">
   @endsection
 
 
