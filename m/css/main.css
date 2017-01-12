@@ -1,0 +1,296 @@
+.section-projects, .project-row {
+  *zoom: 1;
+}
+
+.section-projects:before, .project-row:before, .section-projects:after, .project-row:after {
+  content: " ";
+  display: table;
+}
+
+.section-projects:after, .project-row:after {
+  clear: both;
+}
+
+.centered {
+  text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  height: 100%;
+  color: #333;
+  font-family: system;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  margin: 0;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  padding: 0 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .container {
+    padding: 0;
+  }
+}
+
+::-moz-selection {
+  background-color: #F0FF4C;
+}
+
+::selection {
+  background-color: #F0FF4C;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  height: 90px;
+}
+
+@media (min-width: 769px) {
+  .header {
+    height: 120px;
+  }
+}
+
+.top-name {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 13px;
+}
+
+@media (min-width: 769px) {
+  .top-name {
+    font-size: 20px;
+    left: 0;
+  }
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #333;
+  transition: 100ms;
+  position: relative;
+}
+
+.contact-link:after {
+  opacity: 0;
+  width: 100%;
+  height: 6px;
+  background-color: rgba(240, 255, 76, 0.6);
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  transition: 200ms;
+}
+
+.contact-link:hover:after {
+  opacity: 1;
+  transition: 200ms;
+}
+
+.contact-links {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 13px;
+}
+
+.contact-links__col {
+  width: 60px;
+  display: inline-block;
+}
+
+@media (min-width: 769px) {
+  .contact-links__col {
+    width: 70px;
+  }
+}
+
+@media (min-width: 769px) {
+  .contact-links {
+    font-size: 20px;
+    right: 0;
+  }
+}
+
+.hallo {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 16px 0;
+}
+
+@media (min-width: 769px) {
+  .hallo {
+    font-size: 96px;
+  }
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+@media (min-width: 769px) {
+  .intro {
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 690px;
+    margin-bottom: 64px;
+  }
+}
+
+.intro p {
+  margin: 0 0 16px 0;
+}
+
+.intro__more-link {
+  color: #9B9B9B;
+  cursor: pointer;
+  display: block;
+}
+
+.intro__more {
+  display: none;
+}
+
+.section-projects {
+  margin: 0 -16px 30px -16px;
+}
+
+@media (min-width: 769px) {
+  .section-projects {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.project-row {
+  margin: 0 -8px;
+  margin-bottom: 16px;
+}
+
+.project {
+  position: relative;
+  display: block;
+}
+
+.project__img {
+  display: block;
+}
+
+.project__title {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  background: #f0ff4c;
+  padding: 5px 16px;
+  font-family: 'Playfair Display', serif;
+  box-shadow: 2px 2px 4px 0 rgba(65, 65, 65, 0.5);
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 5;
+  transition: 200ms;
+}
+
+@media (min-width: 769px) {
+  .project__title {
+    left: 8px;
+  }
+}
+
+.hover .project__title, .project:hover .project__title {
+  background: rgba(240, 255, 76, 0);
+  box-shadow: none;
+  transition: 200ms;
+}
+
+.project__description {
+  text-align: right;
+  color: #333;
+}
+
+.project__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding: 16px 16px 0 16px;
+  opacity: 0;
+  transition: 100ms ease-in;
+  background-position: center;
+}
+
+@media (min-width: 769px) {
+  .project__overlay {
+    left: 8px;
+    width: calc(100% - 16px);
+  }
+}
+
+.hover .project__overlay, .project:hover .project__overlay {
+  background-image: url(../img/eye.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(240, 255, 76, 0.9);
+  opacity: 1;
+}
+
+@media (min-width: 769px) {
+  .project {
+    width: 33.33333%;
+    float: left;
+    padding: 0 8px;
+  }
+}
+
+.footer {
+  background-color: #333;
+  padding: 25px 0;
+  font-weight: bold;
+}
+
+.footer__title {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 32px;
+  margin: 0 0 16px 0;
+}
+
+.footer .contact-links {
+  position: static;
+}
+
+.footer .contact-link {
+  color: white;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=main.css.map */
