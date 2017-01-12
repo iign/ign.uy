@@ -11,6 +11,14 @@
   clear: both;
 }
 
+.project__overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
 .centered {
   text-align: center;
 }
@@ -32,16 +40,17 @@ body {
   margin: 0;
   font-weight: 300;
   overflow-x: hidden;
+  border-top: 1px solid #F0FF4C;
 }
 
 .container {
   position: relative;
   padding: 0 16px;
-  max-width: 960px;
+  max-width: 1114px;
   margin: 0 auto;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1114px) {
   .container {
     padding: 0;
   }
@@ -76,9 +85,9 @@ img {
   font-size: 13px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1114px) {
   .top-name {
-    font-size: 20px;
+    font-size: 18px;
     left: 0;
   }
 }
@@ -120,15 +129,15 @@ img {
   display: inline-block;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1114px) {
   .contact-links__col {
     width: 70px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1114px) {
   .contact-links {
-    font-size: 20px;
+    font-size: 18px;
     right: 0;
   }
 }
@@ -152,6 +161,8 @@ img {
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   padding: 0 16px;
+  max-height: 100px;
+  transition: 300ms;
 }
 
 @media (min-width: 769px) {
@@ -177,8 +188,21 @@ img {
   display: none;
 }
 
+.intro--active {
+  max-width: 890px;
+  max-height: 900px;
+}
+
+.intro--active .intro__more {
+  display: block;
+}
+
+.intro--active .intro__more-link {
+  display: none;
+}
+
 .section-projects {
-  margin: 0 -16px 30px -16px;
+  margin: 0 -16px 0 -16px;
 }
 
 @media (min-width: 769px) {
@@ -203,32 +227,27 @@ img {
 }
 
 .project__title {
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  background: #f0ff4c;
-  padding: 5px 16px;
   font-family: 'Playfair Display', serif;
-  box-shadow: 2px 2px 4px 0 rgba(65, 65, 65, 0.5);
   font-size: 28px;
   color: #333333;
   font-weight: bold;
   margin: 0;
-  white-space: nowrap;
   z-index: 5;
   transition: 200ms;
-}
-
-@media (min-width: 769px) {
-  .project__title {
-    left: 8px;
-  }
 }
 
 .hover .project__title, .project:hover .project__title {
   background: rgba(240, 255, 76, 0);
   box-shadow: none;
   transition: 200ms;
+}
+
+.project__cat {
+  margin: 0;
+  color: #82883F;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .project__description {
@@ -257,10 +276,12 @@ img {
 }
 
 .hover .project__overlay, .project:hover .project__overlay {
-  background-image: url(../img/eye.svg);
-  background-repeat: no-repeat;
   background-color: rgba(240, 255, 76, 0.9);
   opacity: 1;
+}
+
+.project__overlay-content {
+  text-align: center;
 }
 
 @media (min-width: 769px) {

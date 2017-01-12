@@ -22,14 +22,15 @@ body{
   margin: 0;
   font-weight: 300;
   overflow-x: hidden;
+  border-top: 1px solid $color-main;
 }
 
 .container{
   position: relative;
   padding: 0 16px;
-  max-width: 960px;
+  max-width: 1114px;
   margin: 0 auto;
-  @media (min-width: 960px) {
+  @media (min-width: 1114px) {
     padding: 0;
   }
 }
@@ -53,8 +54,8 @@ img{ max-width: 100%; }
   top: 16px;
   left: 16px;
   font-size: 13px;
-  @media ($desktop) {
-    font-size: 20px;
+  @media (min-width: 1114px) {
+    font-size: 18px;
     left: 0;
   }
 }
@@ -95,13 +96,13 @@ img{ max-width: 100%; }
   &__col{
     width: 60px;
     display: inline-block;
-    @media ($desktop) {
+    @media (min-width: 1114px) {
       width: 70px;
     }
   }
 
-  @media ($desktop) {
-    font-size: 20px;
+  @media (min-width: 1114px) {
+    font-size: 18px;
     right: 0;
   }
 }
@@ -122,12 +123,16 @@ img{ max-width: 100%; }
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   padding: 0 16px;
+  max-height: 100px;
+  transition: 300ms;
+
   @media ($desktop) {
     font-size: 30px;
     margin: 0 auto;
     max-width: 690px;
     margin-bottom: 64px;
   }
+
   p{
     margin: 0 0 16px 0;
   }
@@ -141,10 +146,22 @@ img{ max-width: 100%; }
   &__more{
     display: none;
   }
+
+  &--active{
+    max-width: 890px;
+    max-height: 900px;
+    .intro__more{
+      display: block
+    }
+    .intro__more-link{
+      display: none;
+    }
+  }
+
 }
 
 .section-projects{
-  margin: 0 -16px 30px -16px;
+  margin: 0 -16px 0 -16px;
   @extend %clearfix;
   @media ($desktop) {
     margin-left: 0;
@@ -168,30 +185,27 @@ img{ max-width: 100%; }
   }
 
   &__title{
-    position: absolute;
-    bottom: 25px;
-    left: 0;
-    background: rgba(240, 255, 76, 1);
-    padding: 5px 16px;
     font-family: 'Playfair Display', serif;
-    box-shadow: 2px 2px 4px 0 rgba(65,65,65,0.50);
     font-size: 28px;
     color: #333333;
     font-weight: bold;
     margin: 0;
-    white-space: nowrap;
     z-index: 5;
     transition: 200ms;
-
-    @media ($desktop){
-      left: 8px;
-    }
 
     .hover &, .project:hover &{
       background: rgba(240, 255, 76, 0);
       box-shadow: none;
       transition: 200ms;
     }
+  }
+
+  &__cat{
+    margin: 0;
+    color: #82883F;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
   }
 
   &__description{
@@ -218,11 +232,14 @@ img{ max-width: 100%; }
     }
 
     .hover &, .project:hover &{
-      background-image: url(../img/eye.svg);
-      background-repeat: no-repeat;
       background-color: rgba(240, 255, 76, .9);
       opacity: 1;
     }
+  }
+
+  &__overlay-content{
+    @extend %centerer;
+    text-align: center;
   }
 
   @media ($desktop) {
@@ -252,9 +269,3 @@ img{ max-width: 100%; }
     font-weight: 300;
   }
 }
-
-
-
-
-
-
