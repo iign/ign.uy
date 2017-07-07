@@ -17,13 +17,17 @@
       </p>
       <div class="intro__more">
         <p>
-          In 2014 I founded <a href="http://montag.uy">MONTAG</a>, a small development and design shop. Since then, I’ve been working with clients building websites, apps, brands and other stuff to help them excel at what they do.
+          In 2014 I started <a href="http://montag.uy">‹MONTAG›</a>, a small development/design shop. <br>
+          Since then, I’ve been working with clients building all sorts of stuff to help them excel at what they do.
         </p>
         <p>
-          I specialize in HTML markup, but I spend my days working also with PHP and JavaScript. When I’m not hacking on code I’m prototyping, wireframing or designing with Sketch, Illustrator or Photoshop.
+          I specialize in HTML markup and CSS, but I also spend my days working with PHP and JavaScript.
+          I enjoy wireframing and designing with Sketch, Illustrator and Photoshop.
         </p>
         <p>
-          I’m passionate about humans and solving complex problems in simple ways. I use technology and design to do so. I love photography, reading, bikes, languages and learning new stuff.
+          I like to solve complex problems in simple ways.
+          I love <a href="https://www.flickr.com/photos/iign/">photography</a>,
+          <a href="http://goodreads.com/iign">reading</a>, bikes, languages and learning new stuff.
         </p>
       </div>
     </div>
@@ -32,18 +36,19 @@
 
       <div class="container">
         <div class="project-row">
-          <a href="/project/nugen" class="project">
-            <img class="project__img" src="/uploads/nugen.png"
-            srcset="/uploads/nugen.png 1x, /uploads/nugen@2x.png 2x" alt="NuGen">
-            <div class="project__overlay">
-              <div class="project__overlay-content">
-                <h3 class="project__title">
-                  NuGen
-                </h3>
-                <h4 class="project__cat">Identity</h4>
+            <a href="/project/mus" class="project">
+              <img class="project__img" src="/uploads/mus.png"
+                   srcset="/uploads/mus.png 1x, /uploads/mus@2x.png 2x" alt="Mus App">
+              <div class="project__overlay">
+                <div class="project__overlay-content">
+                  <h3 class="project__title">
+                  Mus web App
+                  </h3>
+                  <h4 class="project__cat">Web Markup</h4>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+
           <a href="/project/safehouse" class="project">
             <img class="project__img" src="/uploads/safehouse.png"
             srcset="/uploads/safehouse.png 1x, /uploads/safehouse@2x.png 2x" alt="SafeHouse">
@@ -97,18 +102,19 @@
             </div>
           </a>
 
-          <a href="/project/mus" class="project">
-            <img class="project__img" src="/uploads/mus.png" 
-                 srcset="/uploads/mus.png 1x, /uploads/mus@2x.png 2x" alt="Mus App">
+          <a href="/project/nugen" class="project">
+            <img class="project__img" src="/uploads/nugen.png"
+            srcset="/uploads/nugen.png 1x, /uploads/nugen@2x.png 2x" alt="NuGen">
             <div class="project__overlay">
               <div class="project__overlay-content">
                 <h3 class="project__title">
-                Mus web App
+                  NuGen
                 </h3>
-                <h4 class="project__cat">Web Markup</h4>
+                <h4 class="project__cat">Identity</h4>
               </div>
             </div>
           </a>
+
 
         </div> <!-- project-row -->
 

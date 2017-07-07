@@ -12,7 +12,7 @@ function showMore () {
 function sayHi () {
   if (!document.querySelector('.hallo')) { return }
   var hallo = document.querySelector('.hallo')
-  var items = Array('Hallo', 'Hola', '👋')
+  var items = ['Hallo', 'Hola', '👋', 'Hey']
   var item = items[Math.floor(Math.random() * items.length)]
   hallo.innerHTML = item
 }

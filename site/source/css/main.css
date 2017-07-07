@@ -112,7 +112,7 @@ img {
   margin: 0 0 16px 0; }
   @media (min-width: 769px) {
     .hallo {
-      font-size: 96px; } }
+      font-size: 100px; } }
 
 .intro {
   text-align: center;
@@ -120,13 +120,13 @@ img {
   padding: 0 16px;
   max-height: 100px;
   transition: 1000ms;
+  max-width: 690px;
   color: #666; }
   @media (min-width: 769px) {
     .intro {
-      font-size: 30px;
+      font-size: 18px;
       margin: 0 auto;
-      max-width: 690px;
-      margin-bottom: 64px; } }
+      margin-bottom: 45px; } }
   .intro p {
     margin: 0 0 16px 0; }
   .intro__more-link {
@@ -137,7 +137,6 @@ img {
     opacity: 0;
     transition: 400ms; }
   .intro--active {
-    max-width: 890px;
     max-height: 900px; }
     .intro--active .intro__more {
       opacity: 1; }

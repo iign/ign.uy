@@ -115,7 +115,7 @@ img{ max-width: 100%; }
   font-weight: bold;
   margin: 0 0 16px 0;
   @media ($desktop) {
-    font-size: 96px;
+    font-size: 100px;
   }
 }
 
@@ -125,13 +125,13 @@ img{ max-width: 100%; }
   padding: 0 16px;
   max-height: 100px;
   transition: 1000ms;
+  max-width: 690px;
   color: #666;
 
   @media ($desktop) {
-    font-size: 30px;
+    font-size: 18px;
     margin: 0 auto;
-    max-width: 690px;
-    margin-bottom: 64px;
+    margin-bottom: 45px;
   }
 
   p{
@@ -151,7 +151,6 @@ img{ max-width: 100%; }
   }
 
   &--active{
-    max-width: 890px;
     max-height: 900px;
 
     .intro__more{
