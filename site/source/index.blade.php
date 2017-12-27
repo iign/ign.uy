@@ -36,6 +36,20 @@
 
       <div class="container">
         <div class="project-row">
+
+            <a href="/project/givebutter" class="project">
+                <img class="project__img" src="/uploads/GiveButter.png"
+                     srcset="/uploads/GiveButter.png 1x, /uploads/GiveButter@2x.png 2x" alt="GiveButter">
+                <div class="project__overlay">
+                  <div class="project__overlay-content">
+                    <h3 class="project__title">
+                    GiveButter
+                    </h3>
+                    <h4 class="project__cat">Web Markup</h4>
+                  </div>
+                </div>
+            </a>
+
             <a href="/project/mus" class="project">
               <img class="project__img" src="/uploads/mus.png"
                    srcset="/uploads/mus.png 1x, /uploads/mus@2x.png 2x" alt="Mus App">
@@ -62,22 +76,22 @@
             </div>
           </a>
 
-          <a href="/project/passgen" class="project">
-            <img class="project__img" src="/uploads/passgen.png"
-            srcset="/uploads/passgen.png 1x, /uploads/passgen@2x.png 2x" alt="PassGen">
-            <div class="project__overlay">
-              <div class="project__overlay-content">
-                <h3 class="project__title">
-                PassGen
-                </h3>
-                <h4 class="project__cat">UX/UI, Markup, Website</h4>
-              </div>
-            </div>
-          </a>
-
         </div> <!-- project-row -->
 
         <div class="project-row">
+            <a href="/project/passgen" class="project">
+              <img class="project__img" src="/uploads/passgen.png"
+              srcset="/uploads/passgen.png 1x, /uploads/passgen@2x.png 2x" alt="PassGen">
+              <div class="project__overlay">
+                <div class="project__overlay-content">
+                  <h3 class="project__title">
+                  PassGen
+                  </h3>
+                  <h4 class="project__cat">UX/UI, Markup, Website</h4>
+                </div>
+              </div>
+            </a>
+
           <a href="/project/nahual" class="project">
             <img class="project__img" src="/uploads/nahual.png" alt="Nahual Project">
             <div class="project__overlay">
@@ -90,33 +104,35 @@
             </div>
           </a>
           <a href="/project/flying-cargo" class="project">
-            <img class="project__img" src="/uploads/flying-cargo.png"
-            srcset="/uploads/flying-cargo.png 1x, /uploads/flying-cargo@2x.png 2x" alt="Flying Cargo">
+            <img class="project__img" src="/uploads/flying-cargo.jpg"
+            srcset="/uploads/flying-cargo.jpg 1x, /uploads/flying-cargo@2x.jpg 2x" alt="Flying Cargo">
             <div class="project__overlay">
               <div class="project__overlay-content">
                 <h3 class="project__title">
-                Flying Cargo
+                    Flying Cargo
                 </h3>
                 <h4 class="project__cat">Web Design</h4>
               </div>
             </div>
           </a>
 
-          <a href="/project/nugen" class="project">
-            <img class="project__img" src="/uploads/nugen.png"
-            srcset="/uploads/nugen.png 1x, /uploads/nugen@2x.png 2x" alt="NuGen">
-            <div class="project__overlay">
-              <div class="project__overlay-content">
-                <h3 class="project__title">
-                  NuGen
-                </h3>
-                <h4 class="project__cat">Identity</h4>
-              </div>
-            </div>
-          </a>
-
 
         </div> <!-- project-row -->
+
+        <div class="project-row">
+            <a href="/project/nugen" class="project">
+              <img class="project__img" src="/uploads/nugen.png"
+              srcset="/uploads/nugen.png 1x, /uploads/nugen@2x.png 2x" alt="NuGen">
+              <div class="project__overlay">
+                <div class="project__overlay-content">
+                  <h3 class="project__title">
+                    NuGen
+                  </h3>
+                  <h4 class="project__cat">Identity</h4>
+                </div>
+              </div>
+            </a>
+        </div>
 
       </div> <!-- container -->
 

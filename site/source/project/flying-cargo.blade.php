@@ -22,11 +22,11 @@
   @endsection
 
   @section('project_body')
-    <img class="project-detail__img" src="/uploads/fc/home-1.png"
-           srcset="/uploads/fc/home-1.png 1x, /uploads/fc/home-1@2x.png 2x"
+    <img class="project-detail__img" src="/uploads/fc/home-1.jpg"
+           srcset="/uploads/fc/home-1.jpg 1x, /uploads/fc/home-1@2x.jpg 2x"
            alt="Flying Cargo / Hero">
-    <img class="project-detail__img" src="/uploads/fc/home-2.png"
-         srcset="/uploads/fc/home-2.png 1x, /uploads/fc/home-2@2x.png 2x"
+    <img class="project-detail__img" src="/uploads/fc/home-2.jpg"
+         srcset="/uploads/fc/home-2.jpg 1x, /uploads/fc/home-2@2x.jpg 2x"
          alt="Flying Cargo / Hero">
   @endsection
 

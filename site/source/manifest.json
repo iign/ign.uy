@@ -1,5 +1,6 @@
 {
-	"name": "",
+	"name": "Nacho Toledo",
+    "short_name": "Nacho Toledo",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
@@ -12,6 +13,6 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#ffffff",
+	"theme_color": "#f7f972",
 	"display": "standalone"
 }
