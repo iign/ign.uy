@@ -15,8 +15,16 @@
 
   @section('project_intro')
     <p>
-        Proyecto Nahual is an volunteer-driven initiative to promote the social and work inclusion
-        of young people through software testing workshops.
+        Proyecto Nahual is an volunteer-driven initiative to promote social inclusion by
+        generating job opportunities for young people, through software testing workshops.
+    </p>
+    <p>
+        I joined the team in 2014. Since then, we have introduced many students
+        into the world of technology and many start careers in software testing.
+    </p>
+    <p>
+        Apart from coordinating, class preparation and delivery, I help with the
+        project's branding and identity through social media and print.
     </p>
   @endsection
 
