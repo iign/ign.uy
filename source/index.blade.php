@@ -134,7 +134,7 @@
             </a>
         </div>
 
-      </div> <!-- container -->
+      </div> <!-- ./container -->
 
 
     </section>
