@@ -39,7 +39,7 @@
 
             <a href="/project/givebutter" class="project">
                 <img class="project__img" src="/uploads/GiveButter.png"
-                     srcset="/uploads/GiveButter.png 1x, /uploads/GiveButter@2x.png 2x" alt="GiveButter">
+                     srcset="/uploads/GiveButter.png 1x" alt="GiveButter">
                 <div class="project__overlay">
                   <div class="project__overlay-content">
                     <h3 class="project__title">

@@ -1,5 +1,5 @@
-/build_local/
-/node_modules/
-/vendor/
-/build_production/
+build_local
+node_modules
+vendor
+build_production
 deploy.sh
