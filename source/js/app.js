@@ -1,4 +1,4 @@
-var el = document.querySelector('.js-more')
+let el = document.querySelector('.js-more')
 if (el) {
   el.addEventListener('click', function () {
     showMore()
@@ -6,14 +6,14 @@ if (el) {
 }
 
 function showMore () {
-  var intro = document.querySelector('.intro').classList.add('intro--active')
+  document.querySelector('.intro').classList.add('intro--active')
 }
 
 function sayHi () {
   if (!document.querySelector('.hallo')) { return }
-  var hallo = document.querySelector('.hallo')
-  var items = ['Hallo', 'Hola', '👋', 'Hey']
-  var item = items[Math.floor(Math.random() * items.length)]
+  let hallo = document.querySelector('.hallo')
+  let items = ['Hallo', 'Hola', '👋', 'Hey']
+  let item = items[Math.floor(Math.random() * items.length)]
   hallo.innerHTML = item
 }
 
