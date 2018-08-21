@@ -29,11 +29,11 @@
   @endsection
 
   @section('project_body')
-    <img class="project-detail__img" src="/uploads/nahual/nahual.png"
-           srcset="/uploads/nahual/nahual.png 1x, /uploads/nahual/nahual@2x.png 2x"
+    <img class="project-detail__img" src="/uploads/nahual/nahual.jpg"
+           srcset="/uploads/nahual/nahual.jpg 1x, /uploads/nahual/nahual@2x.jpg 2x"
            alt="Nahual / Logo mockups">
-    <img class="project-detail__img" src="/uploads/nahual/nahual-mockups.png"
-         srcset="/uploads/nahual/nahual-mockups.png 1x, /uploads/nahual/nahual-mockups@2x.png 2x"
+    <img class="project-detail__img" src="/uploads/nahual/nahual-mockups.jpg"
+         srcset="/uploads/nahual/nahual-mockups.jpg 1x, /uploads/nahual/nahual-mockups@2x.jpg 2x"
          alt="Nahual / Logo mockups">
   @endsection
 

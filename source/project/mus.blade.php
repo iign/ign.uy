@@ -24,8 +24,8 @@
   @endsection
 
   @section('project_body')
-    <img class="project-detail__img" src="/uploads/mus/mus-app.png"
-           srcset="/uploads/mus/mus-app.png 1x, /uploads/mus/mus-app@2x.png 2x"
+    <img class="project-detail__img" src="/uploads/mus/mus-app.jpg"
+           srcset="/uploads/mus/mus-app.jpg 1x, /uploads/mus/mus-app@2x.jpg 2x"
            alt="Mus / web app">
   @endsection
 

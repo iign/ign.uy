@@ -38,8 +38,8 @@
         <div class="project-row">
 
             <a href="/project/givebutter" class="project">
-                <img class="project__img" src="/uploads/GiveButter.png"
-                     srcset="/uploads/GiveButter.png 1x" alt="GiveButter">
+                <img class="project__img" src="/uploads/GiveButter.jpg"
+                     srcset="/uploads/GiveButter.jpg 1x" alt="GiveButter">
                 <div class="project__overlay">
                   <div class="project__overlay-content">
                     <h3 class="project__title">
@@ -51,8 +51,8 @@
             </a>
 
             <a href="/project/mus" class="project">
-              <img class="project__img" src="/uploads/mus.png"
-                   srcset="/uploads/mus.png 1x, /uploads/mus@2x.png 2x" alt="Mus App">
+              <img class="project__img" src="/uploads/mus.jpg"
+                   srcset="/uploads/mus.jpg 1x, /uploads/mus@2x.jpg 2x" alt="Mus App">
               <div class="project__overlay">
                 <div class="project__overlay-content">
                   <h3 class="project__title">
@@ -64,8 +64,8 @@
             </a>
 
           <a href="/project/safehouse" class="project">
-            <img class="project__img" src="/uploads/safehouse.png"
-            srcset="/uploads/safehouse.png 1x, /uploads/safehouse@2x.png 2x" alt="SafeHouse">
+            <img class="project__img" src="/uploads/safehouse.jpg"
+            srcset="/uploads/safehouse.jpg 1x, /uploads/safehouse@2x.jpg 2x" alt="SafeHouse">
             <div class="project__overlay">
               <div class="project__overlay-content">
                 <h3 class="project__title">
@@ -80,8 +80,8 @@
 
         <div class="project-row">
             <a href="/project/passgen" class="project">
-              <img class="project__img" src="/uploads/passgen.png"
-              srcset="/uploads/passgen.png 1x, /uploads/passgen@2x.png 2x" alt="PassGen">
+              <img class="project__img" src="/uploads/passgen.jpg"
+              srcset="/uploads/passgen.jpg 1x, /uploads/passgen@2x.jpg 2x" alt="PassGen">
               <div class="project__overlay">
                 <div class="project__overlay-content">
                   <h3 class="project__title">
@@ -93,7 +93,7 @@
             </a>
 
           <a href="/project/nahual" class="project">
-            <img class="project__img" src="/uploads/nahual.png" alt="Nahual Project">
+            <img class="project__img" src="/uploads/nahual.jpg" alt="Nahual Project">
             <div class="project__overlay">
               <div class="project__overlay-content">
                 <h3 class="project__title">
@@ -121,8 +121,8 @@
 
         <div class="project-row">
             <a href="/project/nugen" class="project">
-              <img class="project__img" src="/uploads/nugen.png"
-              srcset="/uploads/nugen.png 1x, /uploads/nugen@2x.png 2x" alt="NuGen">
+              <img class="project__img" src="/uploads/nugen.jpg"
+              srcset="/uploads/nugen.jpg 1x, /uploads/nugen@2x.jpg 2x" alt="NuGen">
               <div class="project__overlay">
                 <div class="project__overlay-content">
                   <h3 class="project__title">

@@ -23,8 +23,8 @@
 
 
   @section('project_body')
-    <img class="project-detail__img" src="/uploads/passgen/passgen.png"
-         srcset="/uploads/passgen/passgen.png 1x, /uploads/passgen/passgen@2x.png 2x"  
+    <img class="project-detail__img" src="/uploads/passgen/passgen.jpg"
+         srcset="/uploads/passgen/passgen.jpg 1x, /uploads/passgen/passgen@2x.jpg 2x"  
          alt="Brand on background">
   @endsection
 

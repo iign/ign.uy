@@ -16,8 +16,8 @@
 
 
   @section('project_body')
-    <img class="project-detail__img" src="/uploads/nugen/mountains.png"
-         srcset="/uploads/nugen/mountains.png 1x, /uploads/nugen/mountains@2x.png 2x"  
+    <img class="project-detail__img" src="/uploads/nugen/mountains.jpg"
+         srcset="/uploads/nugen/mountains.jpg 1x, /uploads/nugen/mountains@2x.jpg 2x"  
          alt="Brand on background">
     <img class="project-detail__img" src="/uploads/nugen/brand.jpg"
          srcset="/uploads/nugen/brand.jpg 1x, /uploads/nugen/brand@2x.jpg 2x"   
