@@ -2,3 +2,4 @@ vendor
 deploy.sh
 build_local
 build_production
+node_modules

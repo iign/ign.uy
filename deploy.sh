@@ -1,1 +1,0 @@
-rsync -avr  ./build_production/* iign@iign.webfactional.com:/home/iign/webapps/ign_home
