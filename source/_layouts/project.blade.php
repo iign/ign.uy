@@ -5,11 +5,15 @@
     @include('_partials.header')
 
     <div class="project-detail__title">
-        @yield('project_name')
+        <div class="container">
+            @yield('project_name')
+        </div>
     </div>
 
     <div class="project-detail__intro">
-      @yield('project_intro')
+      <div class="container">
+        @yield('project_intro')
+      </div>
     </div>
 
     <section class="section-project">

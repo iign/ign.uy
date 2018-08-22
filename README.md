@@ -1,13 +1,12 @@
-# IGN
+# ign.uy / About
 
 Jigsaw static site: http://jigsaw.tighten.co/docs/starting-a-new-site/
 
 ## Run
 
-npm install
-gulp watch
+npm run watch
 
 ## Build
 
-gulp && jigsaw build production
-sh deploy.sh
+jigsaw build production
+Just push to master @ GitHub, Netlify handles the rest :)
