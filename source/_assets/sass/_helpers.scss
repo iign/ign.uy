@@ -48,3 +48,11 @@
     bottom: 0;
   }
 }
+
+@mixin hover-enabled {
+  @media not all and (pointer: coarse) {
+    &:hover {
+      @content;
+    }
+  }
+}

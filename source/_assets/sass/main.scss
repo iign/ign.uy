@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 // Imports and variables
 @import 'variables';
@@ -193,33 +193,47 @@ img{ max-width: 100%; }
 
 .section-projects{
   margin: 0;
-  @extend %clearfix;
+  display: grid;
+
   @media ($desktop) {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-.project-row{
-  @extend %clearfix;
-  margin: 0 -16px;
-  margin-bottom: 16px;
-  @media ($desktop) {
-    margin: 0 -8px;
-    margin-bottom: 16px;
+.projects-grid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+
+  @media (min-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 960px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.project{
+.project {
 
   position: relative;
-  display: block;
+  transition: 200ms;
 
-  &__img{
+  &:hover {
+    @include hover-enabled() {
+      transition: 200ms;
+      box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__img {
     display: block;
   }
 
-  &__title{
+  &__title {
     font-family: 'Poppins', serif;
     font-size: 28px;
     color: #333333;
@@ -235,9 +249,9 @@ img{ max-width: 100%; }
     }
   }
 
-  &__cat{
-    margin: 0;
+  &__cat {
     color: #82883F;
+    margin: 0;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: normal;
@@ -248,7 +262,7 @@ img{ max-width: 100%; }
     color: #333;
   }
 
-  &__overlay{
+  &__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -261,9 +275,8 @@ img{ max-width: 100%; }
     transition: 100ms ease-in;
     background-position: center;
 
-    @media ($desktop){
-      left: 8px;
-      width: calc(100% - 16px);
+    @media ($desktop) {
+      width: 100%;
     }
 
     .hover &, .project:hover &{
@@ -275,13 +288,8 @@ img{ max-width: 100%; }
   &__overlay-content{
     @extend %centerer;
     text-align: center;
-    width: 85%;
-  }
-
-  @media ($desktop) {
-    width: 33.33333%;
-    float: left;
-    padding: 0 8px;
+    width: 100%;
+    line-height: 1.2;
   }
 
 }
@@ -346,14 +354,10 @@ img{ max-width: 100%; }
       padding: 64px;
     }
 
-
-    &:hover{
+    &:hover {
       animation-name: floating;
-      -webkit-animation-name: floating;
       animation-duration: 1s;
-      -webkit-animation-duration: 1s;
       animation-iteration-count: infinite;
-      -webkit-animation-iteration-count: infinite;
     }
   }
 
