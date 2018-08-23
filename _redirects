@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-http://iign.netlify.com/* http://ign.uy/:splat 301!
+https://iign.netlify.com/* https://ign.uy/:splat 301!
