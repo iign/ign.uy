@@ -14,6 +14,20 @@
         </div>
       </a>
 
+      <a href="/project/logo-design" class="project">
+        <img class="project__img" src="/uploads/logo-design.jpg"
+             srcset="/uploads/logo-design.jpg 1x, /uploads/logo-design@2x.jpg 2x"
+             alt="Logo design & identity">
+        <div class="project__overlay">
+          <div class="project__overlay-content">
+            <h3 class="project__title">
+              Logo design
+            </h3>
+            <h4 class="project__cat">Design &amp; Identity</h4>
+          </div>
+        </div>
+      </a>
+
       <a href="/project/mus" class="project">
         <img class="project__img" src="/uploads/mus.jpg" srcset="/uploads/mus.jpg 1x, /uploads/mus@2x.jpg 2x" alt="Mus App">
         <div class="project__overlay">
