@@ -37,7 +37,11 @@
       </a>
 
       <a href="/project/mus" class="project">
-        <img class="project__img" src="/uploads/mus.jpg" srcset="/uploads/mus.jpg 1x, /uploads/mus@2x.jpg 2x" alt="Mus App">
+        <picture class="project__img">
+            <source srcset="/uploads/mus.webp" type="image/webp">
+            <img src="/uploads/mus.jpg" srcset="/uploads/mus.jpg 1x, /uploads/mus@2x.jpg 2x" alt="Mus App">
+        </picture>
+
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -49,7 +53,10 @@
       </a>
 
       <a href="/project/safehouse" class="project">
-        <img class="project__img" src="/uploads/safehouse.jpg" srcset="/uploads/safehouse.jpg 1x, /uploads/safehouse@2x.jpg 2x" alt="SafeHouse">
+        <picture class="project__img">
+            <source srcset="/uploads/safehouse.webp" type="image/webp">
+            <img src="/uploads/safehouse.jpg" srcset="/uploads/safehouse.jpg 1x, /uploads/safehouse@2x.jpg 2x" alt="SafeHouse">
+        </picture>
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -61,7 +68,11 @@
       </a>
 
       <a href="/project/passgen" class="project">
-        <img class="project__img" src="/uploads/passgen.jpg" srcset="/uploads/passgen.jpg 1x, /uploads/passgen@2x.jpg 2x" alt="PassGen">
+        <picture class="project__img">
+            <source srcset="/uploads/passgen.webp" type="image/webp">
+            <img src="/uploads/passgen.jpg" srcset="/uploads/passgen.jpg 1x, /uploads/passgen@2x.jpg 2x" alt="PassGen">
+        </picture>
+
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -73,7 +84,10 @@
       </a>
 
       <a href="/project/nahual" class="project">
-        <img class="project__img" src="/uploads/nahual.jpg" alt="Nahual Project">
+        <picture class="project__img">
+            <source srcset="/uploads/nahual.webp" type="image/webp">
+            <img src="/uploads/nahual.jpg" alt="Nahual Project">
+        </picture>
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -84,7 +98,10 @@
         </div>
       </a>
       <a href="/project/flying-cargo" class="project">
-        <img class="project__img" src="/uploads/flying-cargo.jpg" srcset="/uploads/flying-cargo.jpg 1x, /uploads/flying-cargo@2x.jpg 2x" alt="Flying Cargo">
+        <picture class="project__img">
+            <source srcset="/uploads/flying-cargo.webp" type="image/webp">
+            <img src="/uploads/flying-cargo.jpg" srcset="/uploads/flying-cargo.jpg 1x, /uploads/flying-cargo@2x.jpg 2x" alt="Flying Cargo">
+        </picture>
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -96,7 +113,11 @@
       </a>
 
       <a href="/project/nugen" class="project">
-        <img class="project__img" src="/uploads/nugen.jpg" srcset="/uploads/nugen.jpg 1x, /uploads/nugen@2x.jpg 2x" alt="NuGen">
+        <picture class="project__img">
+            <source srcset="/uploads/nugen.webp" type="image/webp">
+            <img src="/uploads/nugen.jpg" srcset="/uploads/nugen.jpg 1x, /uploads/nugen@2x.jpg 2x" alt="NuGen">
+        </picture>
+
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
