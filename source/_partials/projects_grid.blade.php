@@ -3,7 +3,11 @@
     <div class="projects-grid">
 
       <a href="/project/givebutter" class="project">
-        <img class="project__img" src="/uploads/GiveButter.jpg" srcset="/uploads/GiveButter.jpg 1x" alt="GiveButter">
+        <picture class="project__img">
+            <source srcset="/uploads/GiveButter.webp" type="image/webp">
+            <img src="/uploads/GiveButter.jpg" srcset="/uploads/GiveButter.jpg 1x" alt="GiveButter">
+        </picture>
+
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
@@ -15,9 +19,13 @@
       </a>
 
       <a href="/project/logo-design" class="project">
-        <img class="project__img" src="/uploads/logo-design.jpg"
-             srcset="/uploads/logo-design.jpg 1x, /uploads/logo-design@2x.jpg 2x"
-             alt="Logo design & identity">
+        <picture class="project__img">
+            <source srcset="/uploads/logo-design.webp" type="image/webp">
+            <img src="/uploads/logo-design.jpg"
+                 srcset="/uploads/logo-design.jpg 1x, /uploads/logo-design@2x.jpg 2x"
+                 alt="Logo design & identity">
+        </picture>
+
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
