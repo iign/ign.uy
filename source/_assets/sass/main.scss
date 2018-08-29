@@ -120,11 +120,10 @@ img{ max-width: 100%; }
   }
 }
 
-.intro{
+.intro {
   text-align: center;
   font-size: 16px;
   padding: 0 16px;
-  max-height: 100px;
   transition: 1000ms;
   max-width: 690px;
   padding: 0 16px;
@@ -142,29 +141,16 @@ img{ max-width: 100%; }
   &__more-link{
     color: #9B9B9B;
     cursor: pointer;
-    display: block;
   }
 
   &__more{
     opacity: 0;
     transition: 400ms;
-
-  }
-
-  &--active{
-    max-height: 900px;
-
-    .intro__more{
-      opacity: 1;
-    }
-    .intro__more-link{
-      display: none;
-    }
   }
 
 }
 
-.intro, .project-detail__intro{
+.intro, .project-detail__intro {
 
   a{
     color: #333;
