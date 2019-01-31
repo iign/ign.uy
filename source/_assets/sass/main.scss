@@ -4,84 +4,92 @@
 @import 'variables';
 @import 'helpers';
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html{
+html {
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
   height: 100%;
-  color: #333;
+  color: #111;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
   margin: 0;
   font-weight: 300;
   overflow-x: hidden;
   border-top: 3px solid $color-main;
 }
 
-.container{
+.container {
   position: relative;
   padding: 0 16px;
   max-width: 1114px;
   margin: 0 auto;
+
   @media ($desktopHD) {
     padding: 0;
   }
 }
 
-::selection {
-  background-color: $color-main;
+::selection {}
+
+img {
+  max-width: 100%;
 }
 
-img{ max-width: 100%; }
+.align-center {
+  text-align: center;
+}
 
-.align-center { text-align: center; }
-
-.header{
+.header {
   height: 90px;
+
   @media ($desktop) {
     height: 120px;
   }
 }
 
-.top-name{
+.top-name {
   text-decoration: none;
   color: #333;
   position: absolute;
   top: 16px;
   left: 16px;
   font-size: 13px;
+
   @media ($desktopHD) {
     font-size: 18px;
     left: 0;
   }
 }
 
-.contact-link{
+.contact-link {
   text-decoration: none;
   color: #333;
   transition: 100ms;
   position: relative;
 
-  &:after{
+  &:after {
     opacity: 0;
     width: 100%;
-      height: 6px;
-      background-color: rgba($color-main, .6);
-      content: " ";
-      display: block;
-      position: absolute;
-      left: 0;
-      bottom: 0px;
-      transition: 200ms;
+    height: 6px;
+    background-color: rgba($color-main, .6);
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 200ms;
   }
-  &:hover{
-    &:after{
+
+  &:hover {
+    &:after {
       opacity: 1;
       transition: 200ms;
     }
@@ -89,15 +97,16 @@ img{ max-width: 100%; }
 
 }
 
-.contact-links{
+.contact-links {
   position: absolute;
   top: 16px;
   right: 16px;
   font-size: 13px;
 
-  &__col{
+  &__col {
     width: 60px;
     display: inline-block;
+
     @media ($desktopHD) {
       width: 70px;
     }
@@ -109,12 +118,14 @@ img{ max-width: 100%; }
   }
 }
 
-.hallo{
+.hallo {
   font-family: 'Poppins', serif;
   font-size: 18vw;
   text-align: center;
   font-weight: bold;
-  margin: 0 0 16px 0;
+  margin: 0 0 26px 0;
+  line-height: 1;
+
   @media ($desktop) {
     font-size: 120px;
   }
@@ -123,62 +134,52 @@ img{ max-width: 100%; }
 .intro {
   text-align: center;
   font-size: 16px;
-  padding: 0 16px;
-  transition: 1000ms;
+  padding: 0;
   max-width: 690px;
   padding: 0 16px;
   color: #4e4e4e;
 
   @media ($desktop) {
     margin: 0 auto;
-    margin-bottom: 45px;
+    font-size: 18px;
+    margin-bottom: 55px;
   }
 
-  p{
-    margin: 0 0 16px 0;
+  p {
+    margin: 0 0 12px 0;
   }
-
-  &__more-link{
-    color: #9B9B9B;
-    cursor: pointer;
-  }
-
-  &__more{
-    opacity: 0;
-    transition: 400ms;
-  }
-
 }
 
-.intro, .project-detail__intro {
+.intro,
+.project-detail__intro {
 
-  a{
+  a {
     color: #333;
     text-decoration: none;
     position: relative;
   }
 
-  a:after{
-    opacity: .5;
+  a:after {
     width: 100%;
-    height: 6px;
-    background-color: $color-main;
+    height: 2px;
+    background-color: #004cff;
     content: " ";
     display: block;
     position: absolute;
     left: 0;
-    bottom: 3px;
+    bottom: 5px;
     transition: 400ms;
   }
-  a:hover{
-    &:after{
-      opacity: 1;
-      transition: 400ms;
+
+  a:hover {
+    &:after {
+      height: 4px;
+      transition: 10ms;
     }
   }
 }
 
-.section-projects{
+.section-projects {
   margin: 0;
   display: grid;
 
@@ -224,28 +225,22 @@ img{ max-width: 100%; }
   &__title {
     font-family: 'Poppins', serif;
     font-size: 28px;
-    color: #333333;
+    color: white;
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 5px;
     z-index: 5;
     transition: 200ms;
-
-    .hover &, .project:hover &{
-      background: rgba($color-main, 0);
-      box-shadow: none;
-      transition: 200ms;
-    }
   }
 
   &__cat {
-    color: #82883F;
+    color: #dedede;
     margin: 0;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: normal;
   }
 
-  &__description{
+  &__description {
     text-align: right;
     color: #333;
   }
@@ -267,13 +262,14 @@ img{ max-width: 100%; }
       width: 100%;
     }
 
-    .hover &, .project:hover &{
-      background-color: rgba($color-main, .9);
+    .hover &,
+    .project:hover & {
+      background-color: rgba($color-main, 1);
       opacity: 1;
     }
   }
 
-  &__overlay-content{
+  &__overlay-content {
     @extend %centerer;
     text-align: center;
     width: 100%;
@@ -282,7 +278,7 @@ img{ max-width: 100%; }
 
 }
 
-.footer{
+.footer {
   color: #666;
   padding: 15px 0;
   font-size: 13px;
@@ -290,19 +286,20 @@ img{ max-width: 100%; }
 
 }
 
-.project-detail{
-  &__title{
+.project-detail {
+  &__title {
     font-family: 'Poppins', serif;
     font-size: 34px;
     text-align: center;
     font-weight: bold;
     margin: 0 0 16px 0;
+
     @media ($desktop) {
       font-size: 56px;
     }
   }
 
-  &__intro{
+  &__intro {
     font-size: 18px;
     line-height: 23px;
     max-width: 660px;
@@ -311,9 +308,11 @@ img{ max-width: 100%; }
     margin-bottom: 16px;
     font-weight: 300;
     color: #4e4e4e;
-    p{
+
+    p {
       margin-top: 0;
     }
+
     @media ($desktop) {
       font-size: 20px;
       line-height: 26px;
@@ -321,7 +320,7 @@ img{ max-width: 100%; }
     }
   }
 
-  &__img{
+  &__img {
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 16px;
@@ -329,16 +328,17 @@ img{ max-width: 100%; }
   }
 }
 
-.up{
+.up {
   text-align: center;
 
-  a{
+  a {
     display: inline-block;
     text-decoration: none;
     font-size: 32px;
 
     padding: 32px;
-    @media ($desktop){
+
+    @media ($desktop) {
       padding: 64px;
     }
 
@@ -355,9 +355,11 @@ img{ max-width: 100%; }
   0% {
     transform: translateY(0%);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0%);
   }
