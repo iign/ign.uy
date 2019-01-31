@@ -10,13 +10,11 @@
 
     <div class="intro">
       <p>
-        I’m a front-end designer &amp; developer, focused on simple solutions and intuitive interfaces.
-        I specialize in HTML, CSS &amp; UX design, but I also spend my days working with PHP and JavaScript.
+        I’m a designer-developer mix, focused on simple and beautiful solutions.
       </p>
       <p>
-        I like to solve complex problems in simple ways.
-        I love <a href="https://www.flickr.com/photos/iign/">photography</a>,
-        <a href="http://goodreads.com/iign">reading</a>, biking, languages and learning new stuff.
+        I design and build effective websites and digital products, working seamlessly
+        with designers and developers.
       </p>
     </div>
 
