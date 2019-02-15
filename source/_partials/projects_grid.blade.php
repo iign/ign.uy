@@ -47,7 +47,7 @@
             <h3 class="project__title">
               Mus web App
             </h3>
-            <h4 class="project__cat">Web Markup</h4>
+            <h4 class="project__cat">Web Markup, landing page</h4>
           </div>
         </div>
       </a>

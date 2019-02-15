@@ -10,11 +10,11 @@
 
     <div class="intro">
       <p>
-        I’m a designer-developer mix, focused on simple and beautiful solutions.
+        I’m a designer-developer, focused on simple and beautiful solutions.
       </p>
       <p>
-        I design and build effective websites and digital products, working seamlessly
-        with designers and developers.
+        I design and build effective websites and digital products for clients that
+        value both technical execution and visual aspect.
       </p>
     </div>
 
