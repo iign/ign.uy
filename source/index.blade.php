@@ -4,20 +4,20 @@
 @section('top_link', 'Nacho Toledo')
 
 @section('body')
-    <div class="hallo">
-        ...
-    </div>
+<div class="hallo">
+  ...
+</div>
 
-    <div class="intro">
-      <p>
-        I’m a designer-developer, focused on simple and beautiful solutions.
-      </p>
-      <p>
-        I design and build effective websites and digital products for clients that
-        value both technical execution and visual aspect.
-      </p>
-    </div>
+<div class="intro">
+  <p>
+    I’m a designer-developer, focused on simple and beautiful solutions.
+  </p>
+  <p>
+    I design and build effective websites and digital products for clients that
+    value both technical execution and visual impact.
+  </p>
+</div>
 
-    @include('_partials.projects_grid')
+@include('_partials.projects_grid')
 
 @endsection

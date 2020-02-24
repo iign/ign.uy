@@ -1,8 +1,8 @@
 @charset 'UTF-8';
 
 // Imports and variables
-@import 'variables';
-@import 'helpers';
+@import "variables";
+@import "helpers";
 
 *,
 *:before,
@@ -16,12 +16,12 @@ html {
   height: 100%;
   color: #111;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 body {
   margin: 0;
-  font-weight: 300;
+  font-weight: normal;
   overflow-x: hidden;
   border-top: 3px solid $color-main;
 }
@@ -37,7 +37,8 @@ body {
   }
 }
 
-::selection {}
+::selection {
+}
 
 img {
   max-width: 100%;
@@ -79,7 +80,7 @@ img {
     opacity: 0;
     width: 100%;
     height: 6px;
-    background-color: rgba($color-main, .6);
+    background-color: rgba($color-main, 0.6);
     content: " ";
     display: block;
     position: absolute;
@@ -94,7 +95,6 @@ img {
       transition: 200ms;
     }
   }
-
 }
 
 .contact-links {
@@ -119,7 +119,7 @@ img {
 }
 
 .hallo {
-  font-family: 'Poppins', serif;
+  font-family: "DM Sans", serif;
   font-size: 18vw;
   text-align: center;
   font-weight: bold;
@@ -152,7 +152,6 @@ img {
 
 .intro,
 .project-detail__intro {
-
   a {
     color: #333;
     text-decoration: none;
@@ -167,7 +166,7 @@ img {
     display: block;
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: 0;
     transition: 400ms;
   }
 
@@ -190,7 +189,6 @@ img {
 }
 
 .projects-grid {
-
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 16px;
@@ -206,7 +204,6 @@ img {
 }
 
 .project {
-
   position: relative;
   transition: 200ms;
 
@@ -223,7 +220,7 @@ img {
   }
 
   &__title {
-    font-family: 'Poppins', serif;
+    font-family: "DM Sans", serif;
     font-size: 28px;
     color: white;
     font-weight: bold;
@@ -275,7 +272,6 @@ img {
     width: 100%;
     line-height: 1.2;
   }
-
 }
 
 .footer {
@@ -283,12 +279,11 @@ img {
   padding: 15px 0;
   font-size: 13px;
   text-align: center;
-
 }
 
 .project-detail {
   &__title {
-    font-family: 'Poppins', serif;
+    font-family: "DM Sans", serif;
     font-size: 34px;
     text-align: center;
     font-weight: bold;
@@ -348,7 +343,6 @@ img {
       animation-iteration-count: infinite;
     }
   }
-
 }
 
 @keyframes floating {
@@ -363,4 +357,12 @@ img {
   100% {
     transform: translateY(0%);
   }
+}
+
+video {
+  max-width: 100%;
+}
+
+.img-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
