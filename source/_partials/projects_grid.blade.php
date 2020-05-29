@@ -75,7 +75,7 @@
         <div class="project__overlay">
           <div class="project__overlay-content">
             <h3 class="project__title">
-              Mus web App
+              Web player app
             </h3>
             <h4 class="project__cat">Web Markup, landing page</h4>
           </div>

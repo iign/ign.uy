@@ -5,15 +5,20 @@
 @import "helpers";
 
 @font-face {
-  font-family: 'Vollkorn';
+  font-family: "Vollkorn";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(https://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGSTVg5jBUe_z_2.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local("Vollkorn Bold"), local("Vollkorn-Bold"),
+    url(https://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGSTVg5jBUe_z_2.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   background: #76fadd;
 }
 
@@ -37,9 +42,10 @@ body {
   font-weight: normal;
   overflow-x: hidden;
   border-top: 3px solid $color-main;
-  color: #000;
+  color: #222;
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: 'Inter', 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif
+  font-family: "Inter", "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 
 .container {
@@ -106,7 +112,6 @@ img {
       display: inline-block;
     }
   }
-
 }
 
 .contact-links {
@@ -151,33 +156,19 @@ img {
 
   p {
     margin: 0 0 12px 0;
+    line-height: 1.5;
   }
 }
 
 .intro,
 .project-detail__intro {
   a {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-  }
+    color: #222;
+    text-decoration: underline;
+    text-decoration-color: $color-main;
 
-  a:after {
-    width: 100%;
-    height: 2px;
-    background-color: #76fadd;
-    content: " ";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transition: 400ms;
-  }
-
-  a:hover {
-    &:after {
-      height: 4px;
-      transition: 10ms;
+    &:hover {
+      text-decoration-style: wavy;
     }
   }
 }
@@ -267,7 +258,7 @@ img {
 
     .hover &,
     .project:hover & {
-      background-color: rgba($color-main, 1);
+      background-color: rgba(#000, 1);
       opacity: 1;
     }
   }
@@ -307,7 +298,6 @@ img {
     margin: 0 auto;
     margin-bottom: 16px;
     font-weight: 300;
-    color: #4e4e4e;
 
     p {
       margin-top: 0;
