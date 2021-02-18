@@ -25,9 +25,9 @@ Stylespring
 
 @section('project_body')
 
-<img class="project-detail__img img-shadow" src="/uploads/stylespring/Stylespring_Desktop_Home.jpg" srcset="/uploads/stylespring/Stylespring_Desktop_Home.jpg 1x, /uploads/Stylespring_Desktop_Home/stylespring@2x.jpg 2x" alt="Stylespring homepage">
+<img class="project-detail__img img-shadow" src="/uploads/stylespring/Stylespring_Desktop_Home.jpg" alt="Stylespring homepage">
 
-<img class="project-detail__img img-shadow" src="/uploads/stylespring/Stylespring_Desktop_Article.jpg" srcset="/uploads/stylespring/Stylespring_Desktop_Article.jpg 1x, /uploads/Stylespring_Desktop_Article/stylespring@2x.jpg 2x" alt="Stylespring homepage">
+<img class="project-detail__img img-shadow" src="/uploads/stylespring/Stylespring_Desktop_Article.jpg" alt="Stylespring homepage">
 
 
 
