@@ -2,6 +2,22 @@
     <div class="container">
         <div class="projects-grid">
 
+            <a href="/project/lns" class="project">
+                <picture class="project__img">
+                    <source srcset="/uploads/lns-thumb.webp" type="image/webp">
+                    <img src="/uploads/lns-thumb.jpg" alt="Late Night Streaming">
+                </picture>
+
+                <div class="project__overlay">
+                    <div class="project__overlay-content">
+                        <h3 class="project__title">
+                            Late Night Streaming
+                        </h3>
+                        <h4 class="project__cat">Web markup</h4>
+                    </div>
+                </div>
+            </a>
+
             <a href="/project/stylespring" class="project">
                 <picture class="project__img">
                     <source srcset="/uploads/stylespring-thumb.webp" type="image/webp">
@@ -125,21 +141,6 @@
                             PassGen
                         </h3>
                         <h4 class="project__cat">UX/UI, Markup, Website</h4>
-                    </div>
-                </div>
-            </a>
-
-            <a href="/project/nahual" class="project">
-                <picture class="project__img">
-                    <source srcset="/uploads/nahual.webp" type="image/webp">
-                    <img src="/uploads/nahual.jpg" alt="Nahual Project">
-                </picture>
-                <div class="project__overlay">
-                    <div class="project__overlay-content">
-                        <h3 class="project__title">
-                            Proyecto Nahual
-                        </h3>
-                        <h4 class="project__cat">Logo design</h4>
                     </div>
                 </div>
             </a>

@@ -181,7 +181,8 @@ img {
 }
 
 .intro,
-.project-detail__intro {
+.project-detail__intro,
+.section-project {
   a {
     color: $color-main;
     text-decoration: underline;
@@ -347,10 +348,6 @@ img {
 
     padding: 32px;
 
-    @media ($desktop) {
-      padding: 64px;
-    }
-
     &:hover {
       animation-name: floating;
       animation-duration: 1s;
@@ -379,4 +376,43 @@ video {
 
 .img-shadow {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+  list-style: square;
+  li + li {
+    margin-top: 6px;
+  }
+}
+
+.archived {
+  text-align: center;
+  margin: 90px 0;
+  h2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    a {
+      transition: 200ms ease;
+      display: block;
+      color: #777777;
+      text-decoration: none;
+      padding: 7px 14px;
+      border-radius: 10px;
+      &:not(:last-of-type) {
+        margin-bottom: 20px;
+      }
+      &:hover {
+        background-color: #efecec;
+        color: #525252;
+      }
+    }
+  }
 }

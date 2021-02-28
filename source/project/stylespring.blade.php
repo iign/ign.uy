@@ -14,11 +14,12 @@ Stylespring
 <p>
     Web markup for <em>Stylespring</em>, a fashion products aggregator made by Global Commerce Media.
     <br>
-    Mobile-first, responsive web markup.
+    Mobile-first, responsive web markup. <br>
+    Design by <a href="https://grmn.ws">GRMN Studio</a>
 </p>
 
 <p>
-    Explore the demo page: <a href="https://stylespring.netlify.app/">Stylespring homepage</a>
+    Explore the demo site: <a href="https://stylespring.netlify.app/">Stylespring homepage</a>
 </p>
 
 @endsection
